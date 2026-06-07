@@ -630,7 +630,7 @@ body::after,
 }
 
 .action-btn.is-thinking {
-  color: #5b9aff;
+  color: #FF4081;
 }
 
 .thinking-spin {
@@ -639,12 +639,12 @@ body::after,
 }
 
 .action-btn.primary {
-  color: #5b9aff;
+  color: #FF4081;
 }
 
 .action-btn.primary:hover:not(:disabled) {
-  background: rgba(91, 154, 255, 0.2);
-  color: #7bb0ff;
+  background: rgba(255, 64, 129, 0.2);
+  color: #FF80AB;
 }
 
 /* 右键菜单 */

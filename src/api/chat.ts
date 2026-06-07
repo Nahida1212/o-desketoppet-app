@@ -8,7 +8,7 @@
  */
 
 // ==================== 配置（TODO: 用户填 key） ====================
-const API_KEY = "sk-a6f89889e33f4d619cd09ce88e5496ea"
+const API_KEY = ""
 export const API_BASE_URL = "https://api.deepseek.com/anthropic"
 export const MODEL = "deepseek-v4-flash"
 // ================================================================
