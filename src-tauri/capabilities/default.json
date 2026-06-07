@@ -1,10 +1,25 @@
-{
-  "$schema": "../gen/schemas/desktop-schema.json",
-  "identifier": "default",
-  "description": "Capability for the main window",
-  "windows": ["main"],
-  "permissions": [
-    "core:default",
-    "opener:default"
-  ]
-}
+[
+  {
+    "$schema": "../gen/schemas/desktop-schema.json",
+    "identifier": "main-window",
+    "description": "Capability for the main window",
+    "windows": ["main"],
+    "permissions": [
+      "core:default",
+      "opener:default",
+      "dialog:default"
+    ]
+  },
+  {
+    "identifier": "pet-window",
+    "description": "Capability for pet windows",
+    "windows": ["pet-*"],
+    "permissions": [
+      "core:default",
+      "core:window:allow-close",
+      "core:window:allow-start-dragging",
+      "core:window:allow-set-always-on-top",
+      "core:window:allow-set-background-color"
+    ]
+  }
+]

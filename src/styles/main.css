@@ -1,0 +1,35 @@
+/* 全局基础样式 */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#app {
+  height: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #FF4081;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #FF80AB;
+}
+
+@media (prefers-color-scheme: dark) {
+  a:hover {
+    color: #FF80AB;
+  }
+}
